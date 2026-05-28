@@ -25,7 +25,7 @@ git config --global user.email "你的邮箱@example.com"
 
 ````Bash
 # 克隆远程仓库到本地
-git clone http://154.222.28.16:3000/Top_Gun/Group_Work
+git clone 仓库地址
 ````
 
 建议先通过命令行完成首次克隆，然后使用 VSCode 打开克隆到本地的文件夹来进行后续的开发和 Git 操作。本地推送前，请确保根目录下的 .gitignore 文件有屏蔽诸如 node_modules 文件夹，来防止将一些不必要的大文件推送至 Gitea 而浪费大量时间。
